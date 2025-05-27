@@ -1,0 +1,92 @@
+.summary-records-container {
+  min-height: 100vh;
+  background: #f9cfcf;
+  padding: 24px 0 40px 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  border: 5px solid #222;
+  box-sizing: border-box;
+}
+.summary-header-bar {
+  background: #bcd2e8;
+  color: #222;
+  font-size: 2.1rem;
+  font-weight: 500;
+  border-radius: 0 0 8px 8px;
+  padding: 8px 24px 8px 24px;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 8px #0001;
+}
+.close-btn {
+  background: #ff2222;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 2px 12px;
+  cursor: pointer;
+  margin-left: 18px;
+  transition: background 0.2s;
+}
+.close-btn:hover {
+  background: #b30000;
+}
+.summary-title {
+  font-size: 2.1rem;
+  font-weight: 900;
+  text-align: center;
+  margin: 12px 0 18px 0;
+  color: #111;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 8px #0001;
+}
+.summary-chart-section {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #0001;
+  margin: 0 auto 24px auto;
+  max-width: 600px;
+  padding: 18px 12px 8px 12px;
+}
+.summary-chart-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+}
+.summary-bar-chart {
+  background: none;
+  margin-right: 12px;
+}
+.summary-chart-date {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #222;
+  margin-top: 8px;
+  min-width: 110px;
+  text-align: right;
+}
+@media (max-width: 700px) {
+  .summary-header-bar {
+    font-size: 1.1rem;
+    padding: 8px 8px;
+  }
+  .summary-title {
+    font-size: 1.2rem;
+  }
+  .summary-chart-section {
+    max-width: 99vw;
+    padding: 8px 2px 4px 2px;
+  }
+  .summary-bar-chart {
+    width: 220px !important;
+    height: 120px !important;
+  }
+  .summary-chart-date {
+    font-size: 1rem;
+    min-width: 60px;
+  }
+} 

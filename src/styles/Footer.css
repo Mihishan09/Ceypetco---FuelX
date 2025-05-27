@@ -1,0 +1,88 @@
+.main-footer {
+  background: #d3d8ea;
+  color: #222;
+  padding: 40px 0 0 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  gap: 40px;
+}
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+}
+.footer-section.company h2 {
+  color: #2d1a5a;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.footer-section.company p {
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+.footer-section.links h3,
+.footer-section.contact h3 {
+  color: #2d1a5a;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.footer-section.links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-section.links ul li {
+  margin-bottom: 8px;
+}
+.footer-section.links ul li a {
+  color: #222;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+.footer-section.links ul li a:hover {
+  color: #ff6600;
+}
+.footer-section.contact p {
+  margin: 4px 0;
+  font-size: 1rem;
+}
+.footer-social {
+  margin-top: 8px;
+}
+.footer-social a {
+  color: #222;
+  margin-right: 12px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-social a:hover {
+  color: #ff6600;
+}
+.footer-bottom {
+  text-align: center;
+  padding: 18px 0 10px 0;
+  color: #555;
+  font-size: 1rem;
+  border-top: 1px solid #bbb;
+  margin-top: 30px;
+}
+@media (max-width: 900px) {
+  .footer-content {
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+  }
+  .footer-section {
+    min-width: 0;
+  }
+} 
